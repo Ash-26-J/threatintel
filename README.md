@@ -1,8 +1,5 @@
 # Domain Intel 360 (React + FastAPI)
-
-## Local Quick Start
-
-1. Clone and enter project:
+}
 
 ```bash
 git clone https://github.com/Ash-26-J/work2.git
@@ -118,3 +115,6 @@ Request body for `/analyze`:
   "active_scan": false
 }
 ```
+=======
+# threatintel
+>>>>>>> 6b15b9d986961254a0452b4723027b35ecfb881a
