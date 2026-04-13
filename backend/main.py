@@ -26,6 +26,16 @@ def health_check():
     return {"status": "ok"}
 
 
+@app.get("/")
+def root():
+    return {
+        "message": "Domain Intel 360 API is live",
+        "health": "/health",
+        "docs": "/docs",
+        "analyze": "POST /analyze",
+    }
+
+
 @app.post("/analyze")
 def analyze(payload: AnalyzeRequest):
     domain = normalize_domain(payload.domain)
